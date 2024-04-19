@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--logo-->
+    <link rel="icon" href="./media/Guitar-coder.ico" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!--css-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/e7c1e6762a.js" crossorigin="anonymous"></script>
+    <!-- Favicom -->
+    <link rel="icon" type="image/png" href="../media/Iconodeguitarcoder.png" />
+    <!--titulo-->
+    <title>Matías Álvarez - Trabajo Final JS </title>
+</head>
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark m-6">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="index.html"><img class="icono" src="./media/Iconodeguitarcoder.png" class="tittle-logo" alt="GuitarCoder logo" />GuitarCoder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- Carrusel de imagenes en boostrap -->
+<section class="animate__animated animate__fadeIn container-fluid carrusel-index w-30">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./media/carrusel/img1.jpg" class="d-block img-guitar" alt="foto lookbook img-guitar" />
+        </div>
+        <div class="carousel-item">
+            <img src="./media/carrusel/img 2.jpg" class="d-block img-guitar" alt="foto lookbook img-guitar" />
+        </div>
+        <div class="carousel-item">
+            <img src="./media/carrusel/img3.jpg" class="d-block img-guitar" alt="foto lookbook img-guitar" />
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </section>
+    
+        <section class="container section-cuadros">
+        <div class="row div-cuadros">
+            <div class="boxes col-lg-3 col-md-6 col-12">
+            <h2><i class="fas fa-shipping-fast"></i>ENVÍOS GRATIS</h2>
+            <p>A cualquier punto del país en menos de 48hs</p>
+            </div>
+            <div class="boxes col-lg-3 col-md-6 col-12">
+            <h2><i class="far fa-credit-card"></i>HASTA 10 CUOTAS SIN INTERÉS</h2>
+            <p>Con todas las tarjetas via Mercado Pago</p>
+            </div>
+            <div class="boxes col-lg-3 col-md-6 col-12">
+            <h2><i class="fa fa-handshake-o"></i>Producto afinado y 5 clases gratis</h2>
+            <p>
+     Con tu compra recibes acceso exclusivo a 5 clases gratuitas para aprender lo básico, con la opción de suscripción
+            </p>
+            </div>
+        </div>
+        </section>
+
+    <footer>
+        <div class="container footer-content">
+            <ul class="footer-info">
+                <li>Colon 123, San José de Mayo - Uruguay</li>
+                <li>(+598) 4342-1234</li>
+                <li>Matías Álvarez - Trabajo final Js</li>
+            </ul>
+            <!-- Le puse targer para optimizar el Seo, logrando que inicio en una nueva página -->
+            <ul class="footer-redes"> 
+                <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </ul>
+        </div>
+        <p class="derechos">GuitarCoder. Todos los derechos reservados ©️.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+[
+    {
+        "id":"1",
+        "nombre":"Guitarra Squier",
+        "descripcion": "Guitarra acústica, calidad premium",
+        "precio": 85000,
+        "foto": "../media/g1.jpg"
+    },
+    {
+        "id":"2",
+        "nombre":"Guitarra Taylor",
+        "descripcion": "Guitarra acústica, diapazon de ebano, tapa de sitka macisa",
+        "precio": 11000,
+        "foto": "../media/g2.jpg"
+    },
+    {
+        "id":"3",
+        "nombre":"Guitarra Ibanez",
+        "descripcion": "El sueño de los metaleros ",
+        "precio": 10000,
+        "foto": "../media/g3.jpg"
+    },
+    {
+        "id":"4",
+        "nombre":"Telecaster genérica",
+        "descripcion": "Un clásico del Rock🤘🤘🤘",
+        "precio": 120000,
+        "foto": "../media/g4.jpg"
+    },
+    {
+        "id":"5",
+        "nombre":"Guitarra Firebird",
+        "descripcion": "De las más exopticas de Gibson - Sonido brutal",
+        "precio": 7000,
+        "foto": "../media/g5.jpg"
+    },
+    {
+        "id":"6",
+        "nombre":"Gibgson",
+        "descripcion": "Gibson Les Paul. calidad al máximo nivel",
+        "precio": 250000,
+        "foto": "../media/g6.jpg"
+    },
+    {
+        "id":"7",
+        "nombre":"Fender Squier",
+        "descripcion": "Para amateurs, inmejorable relación calidad-precio ",
+        "precio": 280000,
+        "foto": "../media/g7.jpg"
+    },
+    {
+        "id":"8",
+        "nombre":"Gibson Les Paul",
+        "descripcion": "La que usa Skay Bellinson 💪💪 ",
+        "precio": 150000,
+        "foto": "../media/g8.jpg"
+    },
+    {
+        "id":"9",
+        "nombre":"Telecaste Squier",
+        "descripcion": "La adversidad de la Stratocaster 💀🤘",
+        "precio": 330000,
+        "foto": "../media/g9.jpg"
+    }
+]

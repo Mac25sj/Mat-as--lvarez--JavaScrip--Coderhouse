@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: px;
+  box-sizing: border-box;
+}
+
+//Variables. he definido unas varialbes que me vana a ayudar trabajar más eficientemente, adémas de scarle utilidad a Sass
+$negro: #000100;
+$blanco: #fff;
+$cuadrosFondo: #bec9c8d5;
+$cuadroDeProductos: rgba(14, 27, 204, 0.137);
+
+
+
+/* === GENERAL === */
+body{background-color: $cuadrosFondo ;}
+
+.botones {
+  font-size: 18px;
+  font-family: sans-serif;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  align-self: center;
+  color: $blanco;
+  background-color: $negro;
+  border-radius: 15px 15px 15px 15px;
+  transition: .5s ease;
+  &:hover{
+    background: #4789b4;
+    color: #E9EEF2;
+  }
+  &:active{
+      background: #42e56e;
+  }
+
+
+ #Boostrap {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+}
+
